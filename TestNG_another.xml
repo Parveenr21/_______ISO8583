@@ -1,0 +1,26 @@
+<suite name="TestNG - Suite for tests without WebDriver" verbose="0" allow-return-values="true" parallel ="methods">
+   <parameter name="param1"  value="Parveen"/>
+   <parameter name="x"  value="BJP"/>
+    <parameter name="y"  value="NARENDRA"/>
+    <parameter name="z"  value="MODI"/>
+  
+  
+  <test name="InsertionClasses testing" preserve-order="true">
+  
+    <classes>
+      <class name="Parser.AppTest"/>
+      
+      
+      
+    </classes>
+  </test>
+  
+  <test name="Get Classes testing" preserve-order="true">
+    <classes>
+      <class name="Parser.AppTest"/>
+          </classes>
+  </test>
+  
+  
+  
+</suite>
